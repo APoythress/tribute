@@ -1,0 +1,85 @@
+/* General Styling */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
+  font-family: futura;
+}
+
+/*div {
+  border: 1px solid white;
+}*/
+
+/* Header section */
+
+header {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  min-width: 600px;
+  background-color: #fca311;
+  opacity: .99;
+}
+
+#left {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+#right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+header img {
+  width: inherit;
+  height: inherit;
+}
+
+header #logo {
+  display: inline-flex;
+  height: 55px;
+  width: 240px;
+  margin-left: 10px;
+}
+
+/* Styling for navigation in header section */
+
+header #navigation {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+header li {
+  float: left;
+}
+
+header li a {
+    display: block;
+    color: #14213D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header li a:hover {
+  background-color: #111;
+  color: #fca311;
+}
