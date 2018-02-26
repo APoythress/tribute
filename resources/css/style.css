@@ -124,3 +124,27 @@ header li a:hover {
   font-size: .95em;
   padding: 5px 0;
 }
+
+/* Button for About Us */
+
+#about_button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+button {
+  background-color: #fca311;
+  height: 50px;
+  max-width: 500px;
+  min-width: 400px;
+  border-radius: 50px;
+  border: 2px solid #14213D;
+  color: #14213D;
+  font-size: 1.1em;
+}
+
+button:hover {
+  background-color: #111;
+  color: #fca311;
+}
